@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="@android:style/Theme.Material.Light">
+		<item name="android:textColorPrimary">#ffffffff</item>
+		<item name="android:textSize">17.0sp</item>
+		<item name="android:textColor">#ff303030</item>
+		<item name="android:colorPrimary">#ff008577</item>
+		<item name="android:colorPrimaryDark">#ff00574b</item>
+		</style>
+</resources>
+

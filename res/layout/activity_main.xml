@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp"
+    android:background="@drawable/bbb"
+    android:paddingTop="30dp">
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/tz"
+		android:text="计算器"
+		android:layout_marginBottom="20dp"
+		android:background="@android:color/white"/>
+    <Button
+        android:background="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btn_active"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="激活设备管理器" />
+    <Button
+        android:background="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消设备管理器"
+        android:id="@+id/btn_cancel_active"/>
+    <Button
+        android:background="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置锁屏密码"
+        android:id="@+id/btn_change_password"/>
+    <Button
+        android:background="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消锁屏密码"
+        android:id="@+id/btn_cancel_password"/>
+
+    <Button
+        android:id="@+id/btn_lock_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:text="设置屏幕自动关闭为5s" />
+
+    <Button
+        android:background="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恢复自动关闭时间"
+        android:id="@+id/btn_cancel_lock_time"/>
+    <Button
+        android:background="@android:color/white"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恢复出厂设置"
+        android:id="@+id/btn_wipe_data"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:text="作者:Serral"/>
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:text="版本:1.3"/>
+</LinearLayout>

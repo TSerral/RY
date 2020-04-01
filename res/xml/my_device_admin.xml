@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-policies>
+	    <limit-password /> <!-- 绝对守序 -->
+		<force-lock />  <!-- 天之锁 -->
+        <reset-password /> <!-- 暗箱操作 -->
+        <wipe-data /> <!-- 焕然一新 -->
+    </uses-policies>
+</device-admin>
